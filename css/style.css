@@ -1,0 +1,132 @@
+body {
+    background: #E5EFF5;
+    font-size: 16px;
+}
+
+.card {
+    box-shadow: 2px 3px 7px 0 rgba(0,0,0,0.35);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.upper-half{
+    background-color: WHITE;
+    width: 100%;
+    padding: 35px;
+    height: 45%;
+}
+
+.upper-half p {
+  color: #98A6BD;
+  line-height: 30px;
+
+}
+
+.upper-half h3{
+    margin-bottom: 25px;
+    color: #2EBFBD;
+    font-weight: bold;
+}
+
+.upper-half h4{
+    color: #C0DF34;
+    font-weight: bold;
+}
+
+.lower-half{
+    display: flex;
+    flex-wrap: wrap;
+    height: 55%;
+}
+
+.lower-half p{
+    margin-top: 7px;
+    opacity: 0.7;
+}
+
+.lower-half h5{
+    color: WHITE;
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.lower-left{
+    color: WHITE;
+    background-color: #2AB2AF;
+    padding: 25px;
+    padding-left: 35px;
+    padding-top: 30px;
+    width: 50%;
+}
+
+.lower-right{
+    background-color:#2EBFBD;
+    padding: 30px 30px 35px 35px;
+    width: 50%;
+}
+
+.lower-right h4{
+    color: WHITE;
+    margin-bottom: 30px;
+}
+
+.price {
+    color: WHITE;
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.price-duration, .price {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.price-duration {
+  color: WHITE;
+  position: relative;
+  top: -3px;
+  font-size: 16px;
+  opacity: 0.4;
+  margin-left: 5px;
+}
+
+.btn {
+    background: #C0DF34;
+    padding: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 90%;
+    color: WHITE;
+}
+
+.btn:hover{
+    background-color: WHITE;
+    color: #2AB2AF;
+}
+
+/* ---------- Media Query ---------- */
+@media(max-width : 1000px){
+    .lower-left{
+        width: 100%;
+    }
+
+    .lower-right{
+        width: 100%;
+    }
+}
+
+@media(max-width : 650px){
+    .card {
+        width: 65%;
+    }
+}
